@@ -8,14 +8,25 @@
 </head>
 <body>
     <div class="stopwatch">
-        <div id="display">00:00:00</div>
-        <div class="buttons">
-            <button id="startstop">Start</button>
-            <button id="lap">Lap</button>
-            <button id="reset">Reset</button>
+        <div class="display_wrapper">
+            <img src="/img/applewatch.svg" alt="" class="display_img">
+            <div id="display">00:00:00</div>
+            <div class="buttons">
+                <button id="lap">
+                    <img src="/img/pepicons-pencil_arrow-spin.svg" alt="Lap">
+                </button>
+                 <button id="startstop">
+                    <img src="/img/mdi_play.svg" alt="Start">
+                </button>
+                <button id="reset">
+                    <img src="/img/ion_trash-outline.svg" alt="Reset">
+                </button>
+            </div>
+            <div class="shadoow" id="lap-times"></div>
         </div>
-        <div class="shadoow" id="lap-times"></div>
-    </div>
+        </div>
+        
+  
     <script src="script.js"></script>
 </body>
 </html>
